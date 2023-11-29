@@ -49,7 +49,7 @@ class rec():
 
 
 # child class
-def parallepiped(rec):
+class parallepiped(rec):
     _counter = 0
     def __init__(self , largeur, longueur, height = 2 ):
         super().__init__(largeur,longueur)
